@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700&display=swap');
+
+:root{
+    --main-border-colour: #701caa;
+    --link-colour: #501B65;
+}
+
+html{
+    box-sizing: border-box;
+    height: 100%;
+    max-height: 100vh;
+}
+
+body{
+    box-sizing: border-box;
+    margin: 19px 0;
+    padding: 20px;
+    background-color: #fff;
+}
+
+header {
+    border-radius: 8px;
+    background-color: var(--main-border-colour);
+    padding: 3px;
+    box-shadow: 2px 2px 4px #383333;
+    max-width: 80vw;
+    margin: 0 auto;
+}
+
+nav{
+    padding: 10px 20px;
+    box-sizing: border-box;
+    height: 8vh;
+    font-family: Roboto, sans-serif;
+    font-weight: bold;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 8px;
+}
+
+nav *{
+    border-radius: 4px;
+}
+
+li a {
+    color: #fff;
+}
+
+li {
+    margin: 15px;
+    color: #FFF;
+    display: inline-block;
+    background-color: var(--link-colour);
+    padding: 6px;
+    box-shadow: 2px 2px 1px var(--link-colour);
+}
+
+#home-button span{
+    margin-left: 8px;
+}
+
+#home-button:hover{
+    opacity: 70%;
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+    transition: opacity 0.25s;
+}
+
+li a:hover{
+    opacity: 70%;
+}
+
+li a span{
+    margin-left: 8px;
+}
+
+@media (max-width: 670px){
+    header {
+        padding: 5px;
+        max-width: 100%;
+    }
+
+    #home-button{
+        width: 100%;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    nav {
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        width: 100%;
+        max-width: 600px;
+        min-height: auto;
+        max-height: 200px;
+        height: 100%;
+    }
+
+    ul{
+        margin: 0;
+        display: block;
+        width: 100%;
+        padding-inline-start: 0px;
+    }
+
+    li {
+        text-align: center;
+        display: block;
+    }
+
+    li a{
+        display: block;
+        padding: 0;
+        width: 100%;
+    }
+}
+
+@media (max-height: 600px){
+    header{
+        min-height: 50px;
+    }
+
+    nav{
+        min-height: 45px;
+    }
+}
