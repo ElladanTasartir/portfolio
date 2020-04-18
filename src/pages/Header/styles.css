@@ -5,14 +5,16 @@
     --link-colour: #501B65;
 }
 
-html{
+* {
     box-sizing: border-box;
+}
+
+html{
     height: 100%;
     max-height: 100vh;
 }
 
 body{
-    box-sizing: border-box;
     margin: 19px 0;
     padding: 20px;
     background-color: #fff;
@@ -29,7 +31,6 @@ header {
 
 nav{
     padding: 10px 20px;
-    box-sizing: border-box;
     height: 8vh;
     font-family: Roboto, sans-serif;
     font-weight: bold;
@@ -83,7 +84,7 @@ li a span{
 @media (max-width: 670px){
     header {
         padding: 5px;
-        max-width: 100%;
+        max-width: 80vw;
     }
 
     #home-button{
