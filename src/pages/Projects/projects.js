@@ -8,15 +8,15 @@ const Projects = () => {
     return (
         <main>
             <article className="container-projects">
-                <p id="title-projects">Aqui estão alguns dos projetos que eu já trabalhei:</p>
+                <p id="title-projects">Here are some of the projects I've worked on:</p>
                 <div>
                     <ul className="list-projects">
                         {vectorProjects.map((item, index) => (
                             <li key={item.id}>
-                                <p id="title">Projeto {index + 1}</p>
-                                <p><span>Nome: </span>{item.name}</p>
-                                <p><span>Descrição: </span>{item.description}</p>
-                                <p><span>Ano: </span>{item.year}</p>
+                                <p id="title">Project {index + 1}</p>
+                                <p><span>Name: </span>{item.name}</p>
+                                <p><span>Description: </span>{item.description}</p>
+                                <p><span>Year: </span>{item.year}</p>
                             </li>
                         ))}
                     </ul>
