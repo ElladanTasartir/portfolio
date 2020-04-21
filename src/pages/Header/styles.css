@@ -46,11 +46,11 @@ nav *{
     border-radius: 4px;
 }
 
-li a {
+.nav-social-links li a {
     color: #fff;
 }
 
-li {
+.nav-social-links li {
     margin: 15px;
     color: #FFF;
     display: inline-block;
@@ -59,11 +59,18 @@ li {
     box-shadow: 2px 2px 1px var(--link-colour);
 }
 
-#home-button span{
+.home-button {
+    width: 100%;
+    max-width: 300px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.home-button span{
     margin-left: 8px;
 }
 
-#home-button:hover{
+.home-button a:hover{
     opacity: 70%;
 }
 
@@ -73,11 +80,11 @@ a {
     transition: opacity 0.25s;
 }
 
-li a:hover{
+.nav-social-links a:hover{
     opacity: 70%;
 }
 
-li a span{
+.nav-social-links a span{
     margin-left: 8px;
 }
 
@@ -87,7 +94,7 @@ li a span{
         max-width: 80vw;
     }
 
-    #home-button{
+    .home-button{
         width: 100%;
         margin: 0 auto;
         text-align: center;
@@ -104,19 +111,19 @@ li a span{
         height: 100%;
     }
 
-    ul{
+    .nav-social-links{
         margin: 0;
         display: block;
         width: 100%;
         padding-inline-start: 0px;
     }
 
-    li {
+    .nav-social-links li {
         text-align: center;
         display: block;
     }
 
-    li a{
+    .nav-social-links li a{
         display: block;
         padding: 0;
         width: 100%;
