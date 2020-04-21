@@ -1,0 +1,40 @@
+.container-projects {
+    display: flex;
+    flex-direction: column;
+}
+
+#title-projects {
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    margin-bottom: 5px;
+}
+
+
+.list-projects {
+    display: grid;
+    width: 100%;
+    padding: 20px;
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 15px;
+    column-gap: 30px;
+    list-style: none;
+}
+
+.list-projects li {
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #b4b4b4;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.4);
+}
+
+.list-projects li p span {
+    font-weight: bold;
+    margin-left: 20px;
+}
+
+.list-projects li #title {
+    font-weight: 700;
+    font-size: 20px;
+    text-align: center;
+}
