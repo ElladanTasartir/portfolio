@@ -1,5 +1,4 @@
 import React from 'react';
-import './styles.css';
 import codingSVG from '../../assets/coding.svg';
 
 const About = () => {
