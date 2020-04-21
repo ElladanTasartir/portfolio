@@ -21,14 +21,8 @@ const vectorProjects = [
         year: '2020'
     },
     {
-        id: 3,
-        name: 'test4',
-        description: 'Descrição 4',
-        year: '2020'
-    },
-    {
         id: 4,
-        name: 'test5',
+        name: 'QuestFinder',
         description: 'Descrição 5',
         year: '2020'
     }];
