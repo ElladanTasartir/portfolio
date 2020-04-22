@@ -1,22 +1,21 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700&display=swap');
 
 :root{
-    --main-border-color: #701caa
+    --main-border-colour: #701caa;
 }
 
 *{
     box-sizing: border-box;
 }
 
-
 main{
-    margin: 30px auto;
+    margin: 0 auto;
     border-radius: 8px;
-    background-color:  var(--main-border-color);
-    box-shadow: 2px 2px 4px #383333;
+    background-color:  var(--main-border-colour);
     padding: 4px;
     max-width: 80vw;
     height: 100%;
+    margin-top: 40px;
 }
 
 article{
@@ -30,9 +29,10 @@ article{
     width: 100%;
     height: 100%;
     font-family: Roboto;
+    box-shadow: 2px 2px 4px #383333;
 }
 
-#container-text p{
+#container-text #text, #container-text #title{
     box-sizing: border-box;
     padding: 15px 15px 15px 60px;
     width: 100%;
@@ -41,13 +41,14 @@ article{
 
 #title{
     font-weight: bold;
-    font-size: 42px;
+    font-size: 30px;
 }
 
 #text{
-    margin-top: 70px;
+    margin-top: 40px;
     font-weight: 500;
-    font-size: 25px;
+    font-size: 22px;
+    text-align: justify;
 }
 
 #container-img{

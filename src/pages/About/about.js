@@ -6,7 +6,7 @@ const About = () => {
         <main>
             <article>
                 <div id="container-text">
-                    <p id="title">About:</p>
+                    <h1 id="title">About:</h1>  
                     <p id="text">Hi! My name is Erick Demori Malta, a student aspiring to become a FullStack developer
                     someday. I live in Brazil and I'm currently studying JavaScript and some of its libraries, like JQuery, 
                     and frameworks, such as React, hence the reason I made this portfolio using it. 
