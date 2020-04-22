@@ -8,12 +8,12 @@ const Projects = () => {
     return (
         <main>
             <article className="container-projects">
-                <p id="title-projects">Here are some of the projects I've worked on:</p>
+                <h1 id="title-projects">Here are some of the projects I've worked on:</h1>
                 <div>
                     <ul className="list-projects">
                         {vectorProjects.map((item, index) => (
                             <li key={item.id}>
-                                <p id="title">Project {index + 1}</p>
+                                <h2 id="title">Project {index + 1}</h2>
                                 <p><span>Name: </span>{item.name}</p>
                                 <p><span>Description: </span>{item.description}</p>
                                 <p><span>Year: </span>{item.year}</p>
