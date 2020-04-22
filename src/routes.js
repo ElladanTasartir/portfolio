@@ -7,7 +7,7 @@ import Projects from './pages/Projects/projects';
 export default function Routes() {
     return (
             <Switch>
-                <Route path="/" exact component={About} />
+                <Route path="/portfolio" component={About} />
                 <Route path="/projects" component={Projects} />
             </Switch>
     );
