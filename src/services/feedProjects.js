@@ -4,26 +4,26 @@
 const vectorProjects = [
     {
         id: 0,
-        name: 'test',
-        description: 'Descrição',
+        name: 'Gerenciador de O.S.',
+        description: 'Um programa Desktop feito em C# com SQL Server que gerencia as ordens de serviços do Departamento de Informática da Prefeitura Municipal de Bebedouro/SP',
         year: '2019'
     },
     {
         id: 1,
-        name: 'test2',
-        description: 'Descrição 2',
+        name: 'Sistema da Biblioteca Municipal de Bebedouro/SP',
+        description: 'Supervisionado um sistema Desktop que gerencia os trabalhos feitos em uma biblioteca com C# e SQL Server',
         year: '2019'
     },
     {
         id: 2,
-        name: 'test3',
-        description: 'Descrição 3',
+        name: 'Portfolio',
+        description: 'Essa página feita com ReactJS que serve como portfolio',
         year: '2020'
     },
     {
         id: 4,
-        name: 'QuestFinder',
-        description: 'Descrição 5',
+        name: 'Mapeamento: QuestFinder',
+        description: 'Iniciação Científica focada em criar um mapeamento universitário interno com Back-end feito em NodeJs e MongoDB e o Front-end feito com React Native',
         year: '2020'
     }];
 
