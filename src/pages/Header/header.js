@@ -33,7 +33,7 @@ const Header = () => {
                     <button type="button" id="menu" onClick={scrollMenu}><FaEllipsisV color={linkColor}/></button>
                 </div>
                 <div className="home-button">
-                    <Link className="home-button-link" to="/"><FaHome color={linkColor}/><span>Home</span></Link>
+                    <Link className="home-button-link" to="/portfolio"><FaHome color={linkColor}/><span>Home</span></Link>
                     <Link className="home-button-link" to="/projects"><FaTasks color={linkColor}/><span>Projects</span></Link>
                 </div>
             </nav>
