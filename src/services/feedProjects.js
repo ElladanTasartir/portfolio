@@ -27,4 +27,4 @@ const vectorProjects = [
         year: '2020'
     }];
 
-module.exports = vectorProjects;
+module.exports = vectorProjects.reverse();
