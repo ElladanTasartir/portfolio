@@ -4,26 +4,26 @@
 const vectorProjects = [
     {
         id: 0,
-        name: 'Gerenciador de O.S.',
-        description: 'Um programa Desktop feito em C# com SQL Server que gerencia as ordens de serviços do Departamento de Informática da Prefeitura Municipal de Bebedouro/SP',
+        name: 'Service Order Manager',
+        description: "A desktop software coded in C# that manages the work orders in the IT Department of the Municipal Administration of Bebedouro/SP",
         year: '2019'
     },
     {
         id: 1,
-        name: 'Sistema da Biblioteca Municipal de Bebedouro/SP',
-        description: 'Supervisionado um sistema Desktop que gerencia os trabalhos feitos em uma biblioteca com C# e SQL Server',
+        name: "Bebedouro's Public Library Manager",
+        description: "I've supervised the making of a Desktop software coded in C# that manages all the work done inside my local city's libraby",
         year: '2019'
     },
     {
         id: 2,
         name: 'Portfolio',
-        description: 'Essa página feita com ReactJS que serve como portfolio',
+        description: "This very page I've made using ReactJS that serves as a portfolio for my past and future works",
         year: '2020'
     },
     {
         id: 4,
-        name: 'Mapeamento: QuestFinder',
-        description: 'Iniciação Científica focada em criar um mapeamento universitário interno com Back-end feito em NodeJs e MongoDB e o Front-end feito com React Native',
+        name: "Mapping of Unifafibe's faculties: QuestFinder",
+        description: "Scientific Initiation focused on mapping the college I studied at made with React Native, MongoDB and NodeJS as the Back-End",
         year: '2020'
     }];
 
