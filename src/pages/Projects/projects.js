@@ -1,5 +1,5 @@
 import React from 'react';
-
+import { FaDesktop } from 'react-icons/fa';
 import './styles.css';
 
 let vectorProjects = require('../../services/feedProjects');
@@ -13,7 +13,7 @@ const Projects = () => {
                     <ul className="list-projects">
                         {vectorProjects.map((item, index) => (
                             <li key={item.id}>
-                                <h2 id="title">Project {index + 1}</h2>
+                                <h2 id="title"><FaDesktop color="#501b65" size={18}/><span>Project {index + 1}</span></h2>
                                 <p><span>Name: </span>{item.name}</p>
                                 <p><span>Description: </span>{item.description}</p>
                                 <p><span>Year: </span>{item.year}</p>
