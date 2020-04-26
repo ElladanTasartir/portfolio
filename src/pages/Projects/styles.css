@@ -33,6 +33,10 @@
 .list-projects li p span {
     font-weight: bold;
 }
+.list-projects li #title span {
+    margin-left: 10px;
+}
+
 
 .list-projects li #title {
     font-weight: 700;
