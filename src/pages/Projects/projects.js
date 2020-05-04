@@ -1,10 +1,15 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { FaDesktop } from 'react-icons/fa';
 import './styles.css';
 
 let vectorProjects = require('../../services/feedProjects');
 
 const Projects = () => {
+
+    useEffect(() => {
+        document.title = "Projects - Erick";
+    }, []);
+
     return (
         <main>
             <article className="container-projects">

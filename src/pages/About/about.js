@@ -1,7 +1,12 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import codingSVG from '../../assets/coding.svg';
 
 const About = () => {
+
+    useEffect(() => {
+        document.title = "Portfolio - Erick";
+    }, []);
+
     return (
         <main>
             <article>
