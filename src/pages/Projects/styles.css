@@ -28,6 +28,12 @@
     border-radius: 8px;
     border: 1px solid #b4b4b4;
     box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.4);
+    transition: all 150ms ease;
+}
+
+.list-projects li:hover{
+    transform: translateX(-0.1em) translateY(-0.1em);
+    box-shadow: 4px 4px 2px rgba(0, 0, 0, 0.9);
 }
 
 .list-projects li p span {
@@ -44,7 +50,7 @@
     text-align: center;
 }
 
-@media (max-width: 720px){
+@media (max-width: 790px){
     .list-projects {
         grid-template-columns: repeat(1, 1fr);
     }
