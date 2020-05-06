@@ -15,7 +15,7 @@ html{
 }
 
 body{
-    background-color: var(--main-border-colour);
+    background: linear-gradient(var(--main-border-colour) 90%, #8f44c2) no-repeat fixed;
     font-family: Roboto, sans-serif;
 }
 
